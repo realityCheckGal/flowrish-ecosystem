@@ -1,0 +1,31 @@
+You'll want a developer that understands developing secure RESTful services with a simple Database back end that will provide functionality to your app.
+
+For an AWS-specific developer 
+- Look for an experience with basic AWS Components, specifically the ones mentioned in the design (API Gateway, Lambda, Dynamodb). 
+- For the Lambdas they will have to write code  so they'll have to be able to program in a lambda-supported language. I'm most familiiar with  javascript/nodejs and Python but other languages are available. 
+- They should also be familiar with the AWSconsole to set stuff up manually and debug (using CloudWatch). 
+- A bonus is if they know sst (https://sst.dev) which is a development tool that can help to create and deploy all the components in repeatable process rather than setting up in the console.
+
+It is possible that a suitable developer might have a completely different design solution not using AWS. 
+- in this case you could provide them with the documentation I provided you (sans anything you might not want to share but at least the Use Cases) and they can create a competing design using their technologies of choice with the associated cost estimates. 
+- The Use Cases I provided should be general enough for them to create a competing design. You could also provide the license server design to get some more insight into at least one possible solution in order to come up with their own.
+
+If you're doing a standard interview to hire a candidate discuss actual experience (questions to ask/prompts):
+- Describe a recent project you were involved in.
+	- what was your role?
+	- what specific aspect went particularly well?
+	- what specific aspect didn't go particularly well?
+
+- Describe a specific project where you used AWS components to create a back end service for an app.
+	- what specific aspect went particularly well?
+	- what specific aspect didn't go particularly well?
+	- how did you use DynamoDB?
+	- how did you use Lambdas?
+	- how did you use the API Gateway?
+	- tell me how you handled the security aspect of the RESTful APIs
+
+- Do you have another specific project to describe?
+
+Technical people can have certain "personalities" find out which one this person has.
+- Describe a situation, without compromising sensitive personal or business details,  where you did not get along with a colleague. 
+	- what was the was issue and what did you do to resolve it?
